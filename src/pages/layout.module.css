@@ -1,0 +1,22 @@
+/* Ensure full height for the layout */
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+/* Header (optional, adjust if needed) */
+.header {
+  width: 100%;
+}
+
+/* Main Content should take up all available space */
+.mainContent {
+  flex: 1; /* Pushes the footer down */
+  padding-bottom: 20px; /* Optional: Space before footer */
+}
+
+/* Footer should always be at the bottom */
+.footerContainer {
+  width: 100%;
+}
